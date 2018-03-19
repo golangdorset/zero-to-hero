@@ -9,11 +9,21 @@ func simpleTypes() {
 	var i int
 	fmt.Printf("integer: %v\n", i)
 
+	// We can also define an integer with variable like so:
+	j := 0
+	fmt.Printf("integer: %v\n", j)
+
 	// Here we have a 64 bit float variable. What do you think the zero value
 	// of a float is going to be? What would happen if we used a different
 	// type of float?
 	var f float64
 	fmt.Printf("float: %v\n", f)
+
+	// We can also define an float64 with variable like so:
+	// Note that the syntax is the same as the integer defined on line 13. The
+	// type is inferred by the initialise the variable with.
+	g := 0.0
+	fmt.Printf("float: %v\n", g)
 
 	// Here we have a boolean variable. What do you think the zero value
 	// of a boolean is going to be?
